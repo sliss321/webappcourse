@@ -1,0 +1,5 @@
+<%= div_for @post do%>
+    <h2><%= h(@post.title)  %> </h2>
+    <h3>Post ID: <%= h(@post.id)  %> </h3>
+    <%= simple_format h(@post.body) %> 
+<% end %>    
